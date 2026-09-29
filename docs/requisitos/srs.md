@@ -3,7 +3,7 @@
 ## Especificación de requisitos de software
 
 **Versión:** 0.10   
-**Fecha:** 23/09/2026  
+**Fecha:** 23/09/2026   
 **Estado:** Base documental con UR y FR consolidados; NFR y glosario pendientes  
 **Destinatarios:** partes interesadas del proyecto
 
