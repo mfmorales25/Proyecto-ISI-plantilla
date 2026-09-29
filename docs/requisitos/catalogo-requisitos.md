@@ -226,7 +226,7 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 | FR-170 | El sistema debe mostrar solo el alias asociado a cada valoración y comentario, sin exponer datos personales adicionales. | UR-11 | — | Vigente |
 | FR-171 | El sistema debe mostrar una sección de "Comentarios destacados", resaltando aquellos marcados como útiles por varios usuarios. | UR-11 | — | Vigente |
 | FR-172 | El sistema debe ofrecer una guía interactiva accesible en cualquier momento desde todas las páginas de la plataforma mediante un botón o enlace claramente visible. | UR-12 | — | Vigente |
-| FR-173 | El sistema debe proporcionar en la guía interactiva instrucciones paso a paso sobre las funcionalidades de la plataforma, como registro, inicio de sesión, búsqueda y publicación de recetas, uso del foro, valoración y comentarios. | UR-12 | — | Vigente |
+| FR-173 | El sistema debe proporcionar en la guía interactiva instrucciones paso a paso sobre las funcionalidades de la plataforma, como registro, inicio de sesión, búsqueda y publicación de recetas, uso del foro, valoración y comentarios. | UR-12 | — | Vigente | 
 | FR-174 | El sistema debe mostrar la guía interactiva de manera contextual, ofreciendo ayuda específica según la sección de la plataforma en la que se encuentre el usuario. | UR-12 | — | Vigente |
 | FR-175 | El sistema debe permitir al usuario navegar libremente entre los distintos módulos o temas de la guía interactiva. | UR-12 | — | Vigente |
 | FR-176 | El sistema debe mostrar elementos visuales en la guía interactiva, como resaltados, flechas o ventanas emergentes, que señalen las partes relevantes de la interfaz. | UR-12 | — | Vigente |
