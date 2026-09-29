@@ -278,13 +278,7 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
-| NFR-01 | NFR-Q (Rendimiento) | El sistema debe responder a las operaciones de consulta y navegación en un tiempo máximo de 2 segundos para al menos el 95 % de las solicitudes bajo una carga de hasta 100 usuarios concurrentes. | G | UR-04, UR-08, FR-034–FR-040, FR-085–FR-119 | Prueba de carga y medición automatizada del tiempo de respuesta. | Vigente |
-| NFR-02 | NFR-Q (Disponibilidad) | La plataforma debe mantener una disponibilidad mensual mínima del 99,5 %, excluyendo las ventanas de mantenimiento planificadas y comunicadas previamente. | G | Todos | Monitorización mensual de disponibilidad mediante registros del servicio. | Vigente |
-| NFR-03 | NFR-Q (Seguridad) | El sistema debe proteger las contraseñas almacenadas mediante un algoritmo de hash criptográfico resistente y nunca conservarlas en texto plano. | G | UR-01, UR-02, FR-001–FR-018 | Inspección de configuración y pruebas de seguridad. | Vigente |
-| NFR-04 | NFR-Q (Seguridad) | El sistema debe cifrar mediante TLS todas las comunicaciones entre el cliente y los servicios de la plataforma. | G | Todos | Inspección de configuración y prueba de conexión segura. | Vigente |
-| NFR-05 | NFR-Q (Integridad) | El sistema debe garantizar que los datos de salud y fisiológicos solo puedan ser consultados por el paciente y por los usuarios expresamente autorizados por este. | Local | UR-05, FR-045–FR-053, FR-198–FR-203, FR-216–FR-217 | Pruebas de autorización con usuarios no autorizados y autorizados. | Vigente |
-| NFR-06 | NFR-Q (Auditabilidad) | El sistema debe conservar un registro de auditoría de las operaciones administrativas y de moderación que permita identificar al usuario responsable, la fecha, la hora y la acción realizada. | G | UR-10, UR-13, FR-133–FR-146, FR-181–FR-187 | Inspección de registros y prueba de trazabilidad de operaciones. | Vigente |
-| NFR-07 | NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) | La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización. | G | - | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | Vigente |
+
 
 
 -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
