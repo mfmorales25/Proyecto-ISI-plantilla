@@ -276,35 +276,23 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 
 ## 5. Requisitos no funcionales
 
-NFR-01 | NFR-Q (Rendimiento) | El sistema debe responder a las operaciones de consulta y navegación en un tiempo máximo de 2 segundos para al menos el 95 % de las solicitudes bajo una carga de hasta 100 usuarios concurrentes. | G | UR-04, UR-08, FR-034–FR-040, FR-085–FR-119 | Prueba de carga y medición automatizada del tiempo de respuesta. | Vigente
-
-NFR-02 | NFR-Q (Disponibilidad) | La plataforma debe mantener una disponibilidad mensual mínima del 99,5 %, excluyendo las ventanas de mantenimiento planificadas y comunicadas previamente. | G | Todos | Monitorización mensual de disponibilidad mediante registros del servicio. | Vigente
-
-NFR-03 | NFR-Q (Seguridad) | El sistema debe proteger las contraseñas almacenadas mediante un algoritmo de hash criptográfico resistente y nunca conservarlas en texto plano. | G | UR-01, UR-02, FR-001–FR-018 | Inspección de configuración y pruebas de seguridad. | Vigente
-
-NFR-04 | NFR-Q (Seguridad) | El sistema debe cifrar mediante TLS todas las comunicaciones entre el cliente y los servicios de la plataforma. | G | Todos | Inspección de configuración y prueba de conexión segura. | Vigente
-
-NFR-05 | NFR-Q (Integridad) | El sistema debe garantizar que los datos de salud y fisiológicos solo puedan ser consultados por el paciente y por los usuarios expresamente autorizados por este. | Local | UR-05, FR-045–FR-053, FR-198–FR-203, FR-216–FR-217 | Pruebas de autorización con usuarios no autorizados y autorizados. | Vigente
-
-NFR-06 | NFR-Q (Auditabilidad) | El sistema debe conservar un registro de auditoría de las operaciones administrativas y de moderación que permita identificar al usuario responsable, la fecha, la hora y la acción realizada. | G | UR-10, UR-13, FR-133–FR-146, FR-181–FR-187 | Inspección de registros y prueba de trazabilidad de operaciones. | Vigente
-
-NFR-07 | NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) | La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización. | G | - | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | Vigente
-
-NFR-08 | NFR-Q (Usabilidad) | El sistema debe permitir completar el registro de una cuenta sin asistencia externa y mostrando mensajes de validación comprensibles para los errores introducidos por el usuario. | Local | UR-01, FR-001–FR-015, FR-188–FR-194, FR-213–FR-215 | Prueba de usabilidad con usuarios y comprobación de mensajes de validación. | Vigente
-
-NFR-09 | NFR-Q (Accesibilidad) | La interfaz debe cumplir como mínimo el nivel AA de las WCAG 2.2 en las funcionalidades de registro, autenticación, foro, recetas, búsqueda y administración. | G | UR-01–UR-13 | Auditoría automatizada y revisión manual de accesibilidad. | Vigente
-
-NFR-10 | NFR-Q (Fiabilidad) | El sistema debe evitar la pérdida de los datos confirmados por el usuario cuando se produzca un error durante una operación de escritura. | G | UR-03, UR-04, UR-05, UR-06, UR-07, UR-09, UR-11 | Pruebas de fallo durante operaciones de escritura y verificación de recuperación de datos. | Vigente
-
-NFR-11 | NFR-Q (Portabilidad) | La aplicación web debe funcionar correctamente en las dos últimas versiones estables de Chrome, Firefox, Edge y Safari. | G | Todos | Pruebas funcionales automatizadas y manuales en los navegadores definidos. | Vigente
-
-NFR-12 | NFR-Q (Modificabilidad) | El sistema debe mantener separadas las reglas de negocio de la presentación y del acceso a datos para permitir modificar una regla de negocio sin modificar las demás capas. | G | Todos | Inspección de arquitectura y revisión de código. | Vigente
-
-NFR-13 | NFR-R (Regulaciones y estándares) | El tratamiento de los datos personales y de salud debe realizarse conforme a la normativa de protección de datos aplicable al ámbito de la plataforma. | G | UR-01, UR-03, UR-05, UR-09, UR-13 | Revisión documental y auditoría de cumplimiento. | Vigente
-
-NFR-14 | NFR-I (Interfaz de usuario) | El sistema debe mostrar las fechas y horas utilizando el formato definido para cada funcionalidad y mantener una representación coherente de la zona horaria utilizada. | G | UR-04, UR-05, UR-11 | Pruebas funcionales sobre las vistas y registros temporales. | Vigente
-
-NFR-15 | NFR-Q (Seguridad funcional; Robustez) | El sistema debe mostrar al paciente una advertencia explícita para buscar atención médica cuando se genere una alerta crítica relacionada con sus datos fisiológicos. | Local | UR-05, FR-051, FR-052, FR-217 | Prueba funcional generando valores que superen los umbrales críticos y comprobación del mensaje mostrado. | Vigente
+| ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
+| --- | --- | --- | --- | --- | --- | --- |
+| NFR-01 | NFR-Q (Rendimiento) | El sistema debe responder a las operaciones de consulta y navegación en un tiempo máximo de 2 segundos para al menos el 95 % de las solicitudes bajo una carga de hasta 100 usuarios concurrentes. | G | UR-04, UR-08, FR-034–FR-040, FR-085–FR-119 | Prueba de carga y medición automatizada del tiempo de respuesta. | Vigente |
+| NFR-02 | NFR-Q (Disponibilidad) | La plataforma debe mantener una disponibilidad mensual mínima del 99,5 %, excluyendo las ventanas de mantenimiento planificadas y comunicadas previamente. | G | Todos | Monitorización mensual de disponibilidad mediante registros del servicio. | Vigente |
+| NFR-03 | NFR-Q (Seguridad) | El sistema debe proteger las contraseñas almacenadas mediante un algoritmo de hash criptográfico resistente y nunca conservarlas en texto plano. | G | UR-01, UR-02, FR-001–FR-018 | Inspección de configuración y pruebas de seguridad. | Vigente |
+| NFR-04 | NFR-Q (Seguridad) | El sistema debe cifrar mediante TLS todas las comunicaciones entre el cliente y los servicios de la plataforma. | G | Todos | Inspección de configuración y prueba de conexión segura. | Vigente |
+| NFR-05 | NFR-Q (Integridad) | El sistema debe garantizar que los datos de salud y fisiológicos solo puedan ser consultados por el paciente y por los usuarios expresamente autorizados por este. | Local | UR-05, FR-045–FR-053, FR-198–FR-203, FR-216–FR-217 | Pruebas de autorización con usuarios no autorizados y autorizados. | Vigente |
+| NFR-06 | NFR-Q (Auditabilidad) | El sistema debe conservar un registro de auditoría de las operaciones administrativas y de moderación que permita identificar al usuario responsable, la fecha, la hora y la acción realizada. | G | UR-10, UR-13, FR-133–FR-146, FR-181–FR-187 | Inspección de registros y prueba de trazabilidad de operaciones. | Vigente |
+| NFR-07 | NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) | La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización. | G | - | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | Vigente |
+| NFR-08 | NFR-Q (Usabilidad) | El sistema debe permitir completar el registro de una cuenta sin asistencia externa y mostrando mensajes de validación comprensibles para los errores introducidos por el usuario. | Local | UR-01, FR-001–FR-015, FR-188–FR-194, FR-213–FR-215 | Prueba de usabilidad con usuarios y comprobación de mensajes de validación. | Vigente |
+| NFR-09 | NFR-Q (Accesibilidad) | La interfaz debe cumplir como mínimo el nivel AA de las WCAG 2.2 en las funcionalidades de registro, autenticación, foro, recetas, búsqueda y administración. | G | UR-01–UR-13 | Auditoría automatizada y revisión manual de accesibilidad. | Vigente |
+| NFR-10 | NFR-Q (Fiabilidad) | El sistema debe evitar la pérdida de los datos confirmados por el usuario cuando se produzca un error durante una operación de escritura. | G | UR-03, UR-04, UR-05, UR-06, UR-07, UR-09, UR-11 | Pruebas de fallo durante operaciones de escritura y verificación de recuperación de datos. | Vigente |
+| NFR-11 | NFR-Q (Portabilidad) | La aplicación web debe funcionar correctamente en las dos últimas versiones estables de Chrome, Firefox, Edge y Safari. | G | Todos | Pruebas funcionales automatizadas y manuales en los navegadores definidos. | Vigente |
+| NFR-12 | NFR-Q (Modificabilidad) | El sistema debe mantener separadas las reglas de negocio de la presentación y del acceso a datos para permitir modificar una regla de negocio sin modificar las demás capas. | G | Todos | Inspección de arquitectura y revisión de código. | Vigente |
+| NFR-13 | NFR-R (Regulaciones y estándares) | El tratamiento de los datos personales y de salud debe realizarse conforme a la normativa de protección de datos aplicable al ámbito de la plataforma. | G | UR-01, UR-03, UR-05, UR-09, UR-13 | Revisión documental y auditoría de cumplimiento. | Vigente |
+| NFR-14 | NFR-I (Interfaz de usuario) | El sistema debe mostrar las fechas y horas utilizando el formato definido para cada funcionalidad y mantener una representación coherente de la zona horaria utilizada. | G | UR-04, UR-05, UR-11 | Pruebas funcionales sobre las vistas y registros temporales. | Vigente |
+| NFR-15 | NFR-Q (Seguridad funcional; Robustez) | El sistema debe mostrar al paciente una advertencia explícita para buscar atención médica cuando se genere una alerta crítica relacionada con sus datos fisiológicos. | Local | UR-05, FR-051, FR-052, FR-217 | Prueba funcional generando valores que superen los umbrales críticos y comprobación del mensaje mostrado. | Vigente |
 
 -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 
