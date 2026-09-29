@@ -261,10 +261,16 @@ sin una fuente confirmada.
 
 ## 9. Glosario
 
-Este apartado contiene las definiciones vigentes de los términos del dominio
-que pueden interpretarse de más de una manera. Cada entrada indicará su fuente
-para conservar la procedencia de la definición. El catálogo de requisitos podrá
-enlazar a los términos de esta sección, pero no los definirá de nuevo.
+| Término | Definición dentro de Proyecto Simbiosis | Fuente |
+| --- | --- | --- |
+| EII | Enfermedades Inflamatorias Intestinales, conjunto de enfermedades a las que se orienta la plataforma y cuyos pacientes constituyen uno de los perfiles principales de usuario. | Visión y Alcance; UR-05 |
+| Paciente | Usuario de la plataforma que padece una EII y puede gestionar sus datos de salud, consultar recetas y participar en la comunidad. | Visión y Alcance; UR-05, UR-06 |
+| Cuidador | Usuario que presta cuidados a uno o varios pacientes y puede acceder a la información de salud que estos le autoricen. | UR-01, UR-05, UR-13 |
+| Nutricionista | Profesional sanitario que puede aportar contenido especializado, validar recetas y acceder a los datos de salud de pacientes cuando estos le conceden autorización. | Visión y Alcance; UR-05, UR-06, UR-07 |
+| Coordinador | Usuario con funciones de administración y moderación de la plataforma, responsable de gestionar cuentas, contenido, reportes y verificaciones profesionales. | UR-10, UR-13 |
+| Receta | Publicación que contiene información para preparar un plato, incluyendo ingredientes, instrucciones, tiempo de cocción, porciones y, opcionalmente, recursos multimedia. | UR-06; FR-054–FR-066 |
+
+
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
