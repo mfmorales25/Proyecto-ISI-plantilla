@@ -1,4 +1,4 @@
-# Proyecto Simbiosis
+ # Proyecto Simbiosis
 
 ## Especificación de requisitos de software
 
